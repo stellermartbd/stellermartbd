@@ -1,0 +1,20 @@
+/* Basic styles (small starter) */
+*{box-sizing:border-box;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;}
+body{margin:0;color:#111;background:#fff;}
+.site-header{border-bottom:1px solid #eee;background:#fff;}
+.header-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:12px;}
+.site-name{font-weight:700;font-size:20px;}
+.search-form{display:flex;width:100%;max-width:600px;}
+.search-form input{flex:1;padding:8px;border:1px solid #ddd;border-radius:4px 0 0 4px;}
+.search-form button{padding:8px 12px;border:1px solid #ddd;border-left:0;background:#f5f5f5;border-radius:0 4px 4px 0;}
+.header-inner .right .icon{margin-left:12px;text-decoration:none;color:#111;}
+.main{max-width:1100px;margin:20px auto;padding:0 12px;}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;}
+.product-card{border:1px solid #eee;padding:12px;border-radius:8px;background:#fff;}
+.product-card img{max-width:100%;height:140px;object-fit:contain;}
+.site-footer{border-top:1px solid #eee;padding:20px;margin-top:30px;background:#fafafa;}
+.admin-toolbar{display:flex;gap:12px;padding:12px 0;}
+.table{width:100%;border-collapse:collapse;}
+.table th,.table td{padding:8px;border:1px solid #eee;text-align:left;}
+.form-row{margin-bottom:12px;}
+.btn{padding:8px 12px;border:0;background:#0070f3;color:#fff;border-radius:6px;cursor:pointer;}
