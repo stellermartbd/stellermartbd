@@ -1,0 +1,12 @@
+# Kena Kata - SEO Optimized Robots.txt
+User-agent: *
+Allow: /
+
+# আপনার অ্যাডমিন বা কনফিডেনশিয়াল ফোল্ডারগুলো ইনডেক্স হওয়া থেকে আটকাতে ডিস-অ্যালাউ করুন
+Disallow: /admin/
+Disallow: /core/
+Disallow: /handlers/
+Disallow: /logout.php
+
+# আপনার সাইটম্যাপের লিঙ্ক এখানে দিন (আপনার ডোমেইন অনুযায়ী পরিবর্তন করুন)
+Sitemap: https://primeproductsbd.gamer.gd/sitemap.xml
